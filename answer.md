@@ -12,6 +12,8 @@ Frontend handles all the user actions, like clicking buttons, filling out forms,
 ### 3. Communication with Backend
 The frontend chats with the backend via HTTP or HTTPS requests (you know, GET, POST, PUT, DELETE). It sends data over, gets responses back—often in JSON—and shows that info to the user. For example, when you log in, it zips your details to the server and displays a "welcome" or "oops, try again" message.
 
+
+
 ## Q2. Role of Backend (BE)
 Now, the backend is the unsung hero working quietly on the server side. It's the engine room that keeps everything running smoothly without the user ever seeing it.
 
@@ -23,6 +25,8 @@ Backends connect to databases to store and manage all sorts of data—like user 
 
 ### 3. Security and Authentication
 Security is a big deal here. The backend locks things down with user logins, signups, and permissions—who gets to see what. It encrypts sensitive stuff like passwords so the frontend never gets its hands on the raw data.
+
+
 
 ## Q3. Business Logic
 Business logic is the set of rules that dictate how your app behaves, based on real-world business needs. It's the "what happens next" brain of the operation.
@@ -39,6 +43,8 @@ You can't withdraw cash if your account's balance is too low. The app checks tha
 
 3. **Online Exam System**
 Time's up on the test? No more submissions allowed. Business logic enforces that deadline to keep things fair.
+
+
 
 ## Q4. Client–Server Model
 The client-server model is like a classic partnership: one side asks for stuff, the other delivers. It's the foundation of how web apps communicate.
@@ -57,6 +63,7 @@ Client (Browser) → HTTP Request → Server
 Client (Browser) ← HTTP Response ← Server
 
 ```
+
 
 ## Q5. Three-Tier Architecture
 This setup splits your web app into three layers, making it easier to build, fix, and grow. It's like organizing a kitchen: prep, cook, and store.
@@ -81,6 +88,7 @@ Application Layer
 Data Layer
 
 ```
+
 
 ## Q6. JavaScript as a Backend Language
 JavaScript isn't just for frontends anymore—thanks to Node.js, it's a backend superstar. It's like having one language for the whole show.
